@@ -1,5 +1,7 @@
 package ChainOfResponsibility.DiscountCalculator;
 
+import Utils.Budget;
+
 public class DiscountTieInSale implements Discount {
 
     private Discount nextDiscount;

@@ -1,5 +1,7 @@
-package ChainOfResponsibility.DiscountCalculator;
+package Utils;
 
+
+import ChainOfResponsibility.DiscountCalculator.Item;
 
 import java.util.ArrayList;
 import java.util.Collections;

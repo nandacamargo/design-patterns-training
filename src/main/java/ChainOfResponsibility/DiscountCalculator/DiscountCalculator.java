@@ -1,5 +1,7 @@
 package ChainOfResponsibility.DiscountCalculator;
 
+import Utils.Budget;
+
 public class DiscountCalculator {
 
     public double calculate(Budget budget) {
