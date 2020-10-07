@@ -1,5 +1,7 @@
 package ChainOfResponsibility.DiscountCalculator;
 
+import Utils.Budget;
+
 public class CheckDiscount {
 
     public static void main(String[] args) {

@@ -1,5 +1,7 @@
 package ChainOfResponsibility.DiscountCalculator;
 
+import Utils.Budget;
+
 public class DiscountByQuantity implements Discount {
 
     private Discount nextDiscount;

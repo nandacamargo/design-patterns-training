@@ -1,8 +1,5 @@
 package ChainOfResponsibility.WebRequests;
 
-
-import sun.misc.FormattedFloatingDecimal;
-
 enum Format {
     XML,
     CSV,
@@ -28,7 +25,6 @@ public class RequestFormat {
         Answer xmlFile = new XMLFormat();
         Answer csvFile = new CSVFormat();
         Answer percentFile = new PercentFormat();
-
 
         xmlFile.setNext(csvFile);
         csvFile.setNext(percentFile);
